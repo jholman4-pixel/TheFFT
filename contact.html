@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Contact · The Florida Football Team</title>
+  <meta name="description" content="Contact The Florida Football Team."/>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+  <link rel="preload" href="/assets/logo.svg" as="image" type="image/svg+xml"/>
+  <link rel="stylesheet" href="/styles.css"/>
+  <script defer src="/script.js"></script>
+
+</head>
+<body>
+  
+<header class="header">
+  <div class="container nav">
+    <a class="brand" href="/index.html">
+      <img class="logo" src="/assets/logo.svg" alt="The Florida Football Team logo"/>
+      <span>The Florida Football Team</span>
+    </a>
+    <nav class="links">
+      <a href="/index.html">Home</a>
+      <a href="/press-release.html">Press Release</a>
+      <a href="/team.html">Team & Identity</a>
+      <a href="/merch.html">Merch</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+    <button id="burger" class="btn ghost" aria-label="Open navigation">Menu</button>
+  </div>
+</header>
+
+  <main class="section">
+    <div class="container card">
+      <h1>Contact</h1>
+      <p>We’d love to hear from you. Send general inquiries below. (This demo form is front-end only.)</p>
+      <form onsubmit="event.preventDefault(); alert('Thanks! We will get back to you.');">
+        <label for="name">Name</label>
+        <input id="name" name="name" placeholder="Your name" required/>
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" placeholder="you@example.com" required/>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" placeholder="How can we help?"></textarea>
+        <button class="btn primary" type="submit">Send</button>
+      </form>
+      <p class="small" style="margin-top:12px;">Media: [press@thefloridafootballteam.com] • Partnerships: [partners@thefloridafootballteam.com]</p>
+    </div>
+  </main>
+  
+<footer class="footer">
+  <div class="container">
+    <div>&copy; <span class="year"></span> The Florida Football Team. Built with love in Florida.</div>
+    <div class="small">This is a community/grassroots fan project. Not affiliated with the NFL.</div>
+  </div>
+</footer>
+
+</body>
+</html>
